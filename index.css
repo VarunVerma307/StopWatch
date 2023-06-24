@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: darkslategray;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.time{
+    padding: 4%;
+}
+.digit{
+    font-size: 7.5rem;
+}
+.text{
+    font-size: 3rem;
+}
+.buttons{
+    width: 100%;
+    text-align: center;
+}
+button{
+    padding: .5% 0%;
+    width: 80px;
+  font-size: 23px;
+  margin:  0px 23px ;
+  border : none;
+}
+#stop{
+    background-color: red;
+}
+#start{
+    background-color: rgb(7, 241, 7);
+}
+#reset{
+    background-color: aqua;
+}
